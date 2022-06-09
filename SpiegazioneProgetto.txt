@@ -1,0 +1,10 @@
+Realizzazione lato back-end di un CRM per un'azienda fornitrice di energia,che vuole gestire i contatti con i propri clienti business.
+
+Il sistema è basato su Web Services Rest Spring Boot e dbms PostgreSQL.
+
+E'stato necessario importare due file csv per il caricamento di comuni e province nel database. 
+Dopo aver impostato il model, creato le repository delle entity, ho creato i DTO da passare ai services e poi ai controller che richiamano i metodi presenti nei services.
+Il progetto possiede una gestione centralizzata degli errori ed un package dedicato alla sicurezza.
+Metodi testati al 100%.
+
+Per i metodi di lettura e paginazione bisogna essere autenticati, mentre per i metodi CRUD bisogna effettuare il login come admin.
